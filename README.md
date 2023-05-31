@@ -52,6 +52,7 @@ The patients will have the freedom to talk about a given topic. They will be ask
 e.g. [IELTS topics](https://ieltsliz.com/ielts-speaking-part-1-topics/)
 
 ### Document for Laronix Recording System
+[Recording System Interface](./figs/Recording_interface.png)
 
 The Laronix recording system is designed for data collection from potential users of the AVA Device. It can evaluate the naturalness of audio using a voice quality model named [VoiceMOS](https://voicemos-challenge-2022.github.io/) [Source Model](https://huggingface.co/spaces/sarulab-speech/UTMOS-demo), and the intelligibility is evaluated by an Automatic Speech Recognition engine (Wav2vec2.0 + CTC).
 
@@ -87,3 +88,4 @@ After collecting raw recordings from patients, the data needs to be collated to 
 
 ### Final output
 [Overview of Laronix database](https://kevinlaronix.notion.site/754ddf2d915142f78f150e62a1194355?v=703b8bef383749d9b0dd7b6397ab08e2)
+![Database Overview](./figs/Database_overview.png)
