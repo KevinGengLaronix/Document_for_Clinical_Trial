@@ -37,6 +37,7 @@ The scripted data session includes 200 sentences collected from 5 articles. The 
 
 - VCTK: 40 sentences
 
+You can also find these data Here [Google Drive (Laronix Only)](https://drive.google.com/drive/folders/1kkNh41cJbJJaC16T0c21MddSWUGeqDmO?usp=sharing)
 2. Conversational Data
 
 The conversational data session focuses on natural conversations and involves the following components:
@@ -52,7 +53,10 @@ The patients will have the freedom to talk about a given topic. They will be ask
 e.g. [IELTS topics](https://ieltsliz.com/ielts-speaking-part-1-topics/)
 
 ### Document for Laronix Recording System
-[Recording System Interface](./figs/Recording_interface.png)
+*IMPORTANT: This system does NOT support public access, if anyone plans to use this system please ask kevin (Kevin@laronix.com) for more information*
+
+#### Recording System Interface
+![Recording System Interface](./figs/Recording_interface.png)
 
 The Laronix recording system is designed for data collection from potential users of the AVA Device. It can evaluate the naturalness of audio using a voice quality model named [VoiceMOS](https://voicemos-challenge-2022.github.io/) [Source Model](https://huggingface.co/spaces/sarulab-speech/UTMOS-demo), and the intelligibility is evaluated by an Automatic Speech Recognition engine (Wav2vec2.0 + CTC).
 
